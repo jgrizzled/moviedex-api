@@ -10,7 +10,7 @@ Headers:
 
 Query params: genre, country, avg_score
 
-Test token in .env
+Live demo: https://rocky-stream-77018.herokuapp.com/
 
 ## install
 
