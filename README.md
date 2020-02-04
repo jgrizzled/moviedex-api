@@ -6,10 +6,9 @@ Responds with list of movies
 
 Headers:
 
-&nbsp;Authorization: Bearer TOKEN
+&nbsp;&nbsp;&nbsp;Authorization: Bearer TOKEN
 
 Query params: genre, country, avg_score
-
 
 ## install
 
