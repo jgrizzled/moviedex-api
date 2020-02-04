@@ -12,7 +12,9 @@ const movies = require('./movies-data-small');
 // max returned movies
 const MAX_MOVIES = 10;
 
-app.use(morgan('dev')); // logging
+const morganSetting = process.env.NODE_ENV === 'production' ? 'tiny' : 'common';
+
+app.use(morgan(morganSetting)); // logging
 app.use(helmet()); // secure headers
 
 const validateBearerToken = (req, res, next) => {
