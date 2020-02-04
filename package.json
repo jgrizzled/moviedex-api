@@ -13,7 +13,9 @@
   "scripts": {
     "start": "node server",
     "dev": "nodemon server",
-    "test": "mocha"
+    "test": "mocha --watch",
+    "predeploy": "mocha --bail --exit && yarn audit",
+    "deploy": "git push heroku master"
   },
   "devDependencies": {
     "chai": "^4.2.0",
