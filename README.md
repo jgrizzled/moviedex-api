@@ -10,6 +10,8 @@ Headers:
 
 Query params: genre, country, avg_score
 
+Test token in .env
+
 ## install
 
 `yarn`
